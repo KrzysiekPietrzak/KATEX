@@ -1,0 +1,103 @@
+* {box-sizing: border-box;}
+html,body{overflow-x: hidden;
+margin: 0;
+border:0;
+padding: 0;}
+
+#navbar{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  position: fixed;
+  text-align: left;
+background-image: linear-gradient(40deg,rgb(0,100,100),rgb(200,210,200));
+font-size: 1.45em;
+z-index: 100;
+}
+#navbar a{
+  padding-right: 3em;
+  text-decoration: none;
+}
+.menu:hover{
+  background-color: darkgray;
+}
+.part1{
+  display: flex;
+  position: relative;
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 85%;
+}
+#nb3 {
+  float: right;
+}
+img{
+width: 75vw;
+height: 85vh;
+}
+.part1 {
+width:100%;
+background-size: 60% 100%;
+background-image: linear-gradient(40deg,rgba(0,100,100,0.9),rgba(200,210,200,1));
+}
+.part1 > p{
+position: absolute;
+text-shadow: 2;
+top:2%;
+left: 8%;
+font-family: monospace;
+font-variant-caps: small-caps;
+font-size: 2em;
+align-self: center;
+color: rgb(30,30,45);
+font-family: garamond;
+z-index: 0;
+}
+
+
+#factoryname{
+
+position: relative;
+left: -9% ;
+font-size: 6em;
+text-align:justify;
+font-weight: bolder;
+font-kerning: normal;
+font-size-adjust: auto;
+color:rgb(20,20,70);
+}
+
+.part2{
+  position: relative;
+top: 50%;
+left: 50%;
+  height: 160px;
+  overflow:hidden;
+
+}
+.values1{
+  position: absolute;
+
+}
+.values1::before{
+  content: "";
+animation-name: values;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+@keyframes values {
+    0% {content: "szybkość"}
+    50% {content: "trwałość"}
+    100% {content: "estetykę"}
+  }
+
+
+
+.Onas{
+height: 85%;
+background-color: lightblue;
+display: flex;
+}
