@@ -7,64 +7,80 @@
 
 </head>
 <body>
-  <div id="navbar">
-    <span id="nb1">
-      <a href="#c0"> KATEX </a>
+
+  <!-- first view -->
+  <div class="first_view">
+    <span class="nav1">
+      <a class="menu2" href="#c0"> KATEX </a>
+      <a class="menu2" href="#c1">Produkty</a>
+      <a class="menu2" href="#c2">Park maszynowy</a>
+      <a class="menu2" href="#c3">Współpraca</a>
+      <a class="menu2" href="#c4">O nas</a>
+      <a class="menu2" href="#c5">Kontakt</a>
     </span>
-    <span id=nb2>
-      <a class="menu" href="#c1">O nas</a>
-      <a class="menu" href="#c2">Produkty</a>
-      <a class="menu" href="#c3">Park maszynowy</a>
-    </span>
-    <span id=nb3>
-      <a class="menu" href="#c4">Współpraca</a>
-      <a class="menu" href="#c5">Kontakt</a>
-    </span>
-  </div>
-
-  <br/>
-  <br/>
-
-  <div class="part1" id="c0">
-
-    <img src="img/1.jpg" alt="Stawiamy na modernizacje">
-
-
-    <p id="factoryname">KATEX</p>
-    <p>Polski producent włókniny bawełnianej i poliestrowej</p>
+    <h1 class="factoryname">KATEX</h1>
+    <h2 class="title_text">Polski producent włókniny bawełnianej i poliestrowej</h2>
 
 
   </div>
-  <br>
-  <div class="part2">
+    <section  id="c1" class="Produkty">
+      <h1>Nasze Produkty</h1>
+
+      <div class="display_prod">
+
+        <div class="Produkt" id= "produkt1">
+          <img class="product_photo" src='img/3.jpg'/>
+          <p class="product_name">Ścierka biała</p>
+          <p class="product_info">Appellat ipsum labore iudicem dolore et malis commodo a veniam export est</p>
+        </div>
+             <div class="Produkt" id= "produkt2">
+          <img class="product_photo" src='img/4.jpg'/>
+          <p class="product_name">Ścierka szara</p>
+          <p class="product_info">Hic duis ingeniis arbitrantur, quo fore nulla in proident.
+            Ut offendit non laborum ad quis consequat iis quis nisi.</p>
+        </div>
+           <div class="Produkt" id= "produkt3">
+            <img class="product_photo" src='img/5.jpg'/>
+          <p class="product_name">Ścierka biała - belka</p>
+          <p class="product_info">E  Ut offendit non laborum ad quis consequat iis quis nis eram anim.</p>
+        </div>
+
+      </div>
 
 
-<div class="part2_cont">
-    <p class="maintext">Co możemy zaoferować?</p>
-    <p class="values1"></p>
-</div>
-</div>
 
-  <br>
-  <div class="Onas">
-    <div class="Onasleft" id="c1">
-      <p>Trwałe i wytrzymałe produkty wykonane z najlepszych surowców i poddawane rygorystycznej kontroli</p>
 
-    </div>
-    <div class="Onasright">
+    </section>
+    <section id="c2">
+      <p>Maszyny jakich używamy</p>
+<button type="button" name="next_mach" ind_value="0" id="next_machine">Następna maszyna</button>
 
-      <img src="img/2.jpg" alt="Jestesmy innowacyjna firma">
+      <div class="Maszyna" id="maszyna1" >
+        <figcaption id="fc0">
+<img  id="pic1" src="img/masz/0.jpg" alt="Maliwat"  height="300px" width="300px;">
+<p id="c1" >Maliwat 6800x</p>
+        </figcaption>
+        <figcaption id="fc1" style="display:none">
+<img  id="pic2" src="img/masz/1.jpg" alt="Maliwat"  height="300px" width="300px;" >
+<p id="c2" >Maliwat 6800y</p>
+        </figcaption>
+        <figcaption id="fc2" style="display:none">
+<img  id="pic3" src="img/masz/2.jpg" alt="Maliwat"  height="300px" width="300px;">
+<p id="c3" >Maliwat 6800z</p>
+        </figcaption>
 
-    </div>
-  </div>
-<br>
+      </div>
 
-<div class="part3">
-<p>3 3 3</p>
-<p>3 3 3</p>
-<p>3 3 3</p>
-<p>3 3 3</p>
-</div>
+    </section>
+
+
+
+
 
 </body>
+<script>
+<script src="script.js" defer>
+
+
+</script>
 </html>
