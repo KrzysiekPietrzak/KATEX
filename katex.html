@@ -4,14 +4,17 @@
   <meta charset="utf-8">
   <title>KATEX</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer>
 
+
+  </script>
 </head>
 <body>
 
   <!-- first view -->
   <div class="first_view">
     <span class="nav1">
-      <a class="menu2" href="#c0"> KATEX </a>
+      <a class="menu2" href="#c0"> KATEX - Czechy 2N </a>
       <a class="menu2" href="#c1">Produkty</a>
       <a class="menu2" href="#c2">Park maszynowy</a>
       <a class="menu2" href="#c3">Współpraca</a>
@@ -51,36 +54,58 @@
 
 
     </section>
-    <section id="c2">
+
+    <div id="c2">
+
       <p>Maszyny jakich używamy</p>
 <button type="button" name="next_mach" ind_value="0" id="next_machine">Następna maszyna</button>
-
       <div class="Maszyna" id="maszyna1" >
-        <figcaption id="fc0">
-<img  id="pic1" src="img/masz/0.jpg" alt="Maliwat"  height="300px" width="300px;">
-<p id="c1" >Maliwat 6800x</p>
-        </figcaption>
-        <figcaption id="fc1" style="display:none">
-<img  id="pic2" src="img/masz/1.jpg" alt="Maliwat"  height="300px" width="300px;" >
-<p id="c2" >Maliwat 6800y</p>
-        </figcaption>
-        <figcaption id="fc2" style="display:none">
-<img  id="pic3" src="img/masz/2.jpg" alt="Maliwat"  height="300px" width="300px;">
-<p id="c3" >Maliwat 6800z</p>
-        </figcaption>
+        <figure id="fc0" style=display:inline-block>
+<img  id="pic1" src="img/masz/0.jpg" alt="Maliwat"  height="533" width="800">
+<figcaption id="d1" >Maliwat 6800x</figcaption>
+</figure>
+        <figure id="fc1" style="display:none">
+<img  id="pic2" src="img/masz/1.jpg" alt="Maliwat"  height="1024" width="768" >
+<figcaption id="d2" >Maliwat 6800y</figcaption>
+</figure>
+        <figure id="fc2" style="display:none">
+<img  id="pic3" src="img/masz/2.jpg" alt="Maliwat"  height="1024" width="768">
+<figcaption id="d3" >Maliwat 6800z</figcaption>
+</figure>
 
       </div>
 
-    </section>
+    </div>
 
+ <!-- section 4  -->
+
+ <div class="s4">
+
+
+<div class="s41">
+
+<p>Jak nas znależć?</p>
+<iframe id="roadmap" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2099.4848159903167!2d18.918086581526968!3d51.60212144953719!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spl!2spl!4v1637131629484!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</div>
+<div class="s42">
+  <p>green</p>
+</div>
+  <div class="s43">
+    <form id="myForm"  method="get">
+    Pierwsza wartość: <input id="form_1" type="text" name="fname" value="3"><br>
+    Druga wartość: <input id="form_2" type="text" name="lname" value="4"><br>
+Odejmij <input id="form_3" type="checkbox">
+    <button type="button" name="result_1" id="sum_1">Dodaj</button>
+
+    <p id="demo">red</p>
+  </form>
+
+</div>
 
 
 
 
 </body>
-<script>
-<script src="script.js" defer>
 
-
-</script>
 </html>
