@@ -23,6 +23,12 @@ sum_1.onclick = function(){
 var z = document.getElementById('form_3').checked;
 
 if (z){
-  document.getElementById("demo").innerHTML = x + y;
-}else{  document.getElementById("demo").innerHTML = x - y;}
+  document.getElementById("demo").innerHTML = x - y;
+}else{  document.getElementById("demo").innerHTML = x + y;}
 };
+
+document.getElementById("demo3").innerHTML =
+"Number of anchors are: " + document.anchors.length;
+console.log("I did just that");
+let group1 = ["red","1",1,2,null,true];
+console.log(group1[2]+group1[5]);
